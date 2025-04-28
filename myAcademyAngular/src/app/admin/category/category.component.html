@@ -1,0 +1,23 @@
+<h3>Kategoriler</h3>
+
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Kategori Adı</th>
+      <th>İşlemler</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr  *ngFor="let item of categoryList; let i= index">
+      <td>{{item.id}}</td>
+      <td>{{item.categoryName}}</td>
+      <td>
+        <button class="btn btn-outline-danger">Sil</button>
+        <button class="btn btn-outline-warning">Güncelle</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<button class="btn btn-outline-primary">Yeni Kategori Ekle</button>

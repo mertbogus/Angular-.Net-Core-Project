@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "S21RB0Y12lC4ze8cpmoRgeK7y3dP0X/6ZR592XkIbOY=",
+  "Source": "Company.API",
+  "BasePath": "_content/Company.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
