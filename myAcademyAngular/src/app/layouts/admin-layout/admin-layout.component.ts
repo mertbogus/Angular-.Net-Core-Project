@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './admin-layout.component.css'
 })
 export class AdminLayoutComponent {
-  isSidebarOpen: boolean = true;
+  isSidebarOpen: boolean = false;
 
   toggleSidebar() {
     this.isSidebarOpen = !this.isSidebarOpen;

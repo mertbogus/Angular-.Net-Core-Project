@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|c:\\users\\mert\\desktop\\angular projects\\companyserver\\company.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|solutionrelative:company.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|c:\\users\\mert\\desktop\\angular projects\\companyserver\\company.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|solutionrelative:company.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|c:\\users\\mert\\desktop\\angular projects\\companyserver\\company.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|solutionrelative:company.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|c:\\users\\mert\\desktop\\angular projects\\companyserver\\company.api\\entites\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|solutionrelative:company.api\\entites\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|c:\\users\\mert\\desktop\\angular projects\\companyserver\\company.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|solutionrelative:company.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|c:\\users\\mert\\desktop\\angular projects\\companyserver\\company.api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|solutionrelative:company.api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|c:\\users\\mert\\desktop\\angular projects\\companyserver\\company.api\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3945B4FD-CC88-440F-893D-B8D0FB2E6F22}|Company.API\\Company.API.csproj|solutionrelative:company.api\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,6 +28,32 @@
           "DockedHeight": 300,
           "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Entites\\Product.cs",
+              "RelativeDocumentMoniker": "Company.API\\Entites\\Product.cs",
+              "ToolTip": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Entites\\Product.cs",
+              "RelativeToolTip": "Company.API\\Entites\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:30:07.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Company.API\\Dtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "Company.API\\Dtos\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:18:35.648Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -50,41 +80,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Program.cs",
-              "RelativeDocumentMoniker": "Company.API\\Program.cs",
-              "ToolTip": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Program.cs",
-              "RelativeToolTip": "Company.API\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T00:24:37.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Company.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Company.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-27T23:46:02.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Company.API\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Company.API\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAswGwAAAArAAAAAAAAAA==",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Company.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Company.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowFcAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T23:34:07.388Z",
+              "WhenOpened": "2025-04-29T17:16:46.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Validators\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "Company.API\\Validators\\ProductValidator.cs",
+              "ToolTip": "C:\\Users\\MERT\\Desktop\\Angular Projects\\CompanyServer\\Company.API\\Validators\\ProductValidator.cs",
+              "RelativeToolTip": "Company.API\\Validators\\ProductValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:06:06.542Z",
               "EditorCaption": ""
             }
           ]
