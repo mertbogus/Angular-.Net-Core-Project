@@ -10,14 +10,69 @@
   </thead>
   <tbody>
     <tr  *ngFor="let item of categoryList; let i= index">
-      <td>{{item.id}}</td>
+      <td>{{i+1}}</td>
       <td>{{item.categoryName}}</td>
       <td>
-        <button class="btn btn-outline-danger">Sil</button>
-        <button class="btn btn-outline-warning">Güncelle</button>
+        <button class="btn btn-outline-danger" (click)="Delete(item.id)"><i class="fa fa-trash" aria-hidden="true"></i>  Sil</button>
+        <button class="btn btn-outline-warning" (click)="onSelected(item)" data-bs-toggle="modal" data-bs-target="#editModal"><i class="fa fa-pencil" aria-hidden="true"></i>  Güncelle</button>
       </td>
     </tr>
   </tbody>
 </table>
 
-<button class="btn btn-outline-primary">Yeni Kategori Ekle</button>
+<button class="btn btn-outline-primary"  data-bs-toggle="modal" data-bs-target="#createModal"><i class="fa fa-plus" aria-hidden="true"></i> Yeni Kategori Ekle</button>
+
+
+
+
+<!-- Create Modal -->
+<div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="createModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <form #createForm="ngForm" (ngSubmit)="Create(); createForm.resetForm()">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="createModalLabel">Yeni Kategori Ekle</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <div class="form-group mt-2">
+          <label>Kategori Adı</label>
+          <input type="text" name="categoryName" class="form-control" required="" [(ngModel)]="category.categoryName" required>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" [disabled]="createForm.invalid">Kaydet</button>
+      </div>
+    </div>
+  </form>
+  </div>
+</div>
+
+<!-- Edit Modal -->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <form #editForm="ngForm" (ngSubmit)="Update();">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="createModalLabel">Kategori Güncelle</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <div class="form-group mt-2">
+          <label>Kategori Adı</label>
+          <input type="text" name="categoryName" class="form-control" required="" [(ngModel)]="editCategory.categoryName" required>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" [disabled]="editForm.invalid || !editForm.dirty  " >Güncelle</button>
+      </div>
+    </div>
+  </form>
+  </div>
+</div>

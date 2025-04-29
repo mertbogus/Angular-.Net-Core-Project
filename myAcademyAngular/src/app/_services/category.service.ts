@@ -29,6 +29,6 @@ export class CategoryService {
    }
 
    Delete(id:number){
-    this.http.delete(this.apiUrl+id);
+    return this.http.delete(this.apiUrl+id);
    }
 }
